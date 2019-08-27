@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34130" started-at="2019-08-26T06:50:00Z" finished-at="2019-08-26T06:50:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34130" started-at="2019-08-26T06:50:00Z" finished-at="2019-08-26T06:50:34Z">
+      <class name="Module.CSoftAS.LoginTest">
+        <test-method status="PASS" signature="driverInitialize()[pri:0, instance:Module.CSoftAS.LoginTest@c300f1]" name="driverInitialize" is-config="true" duration-ms="5305" started-at="2019-08-26T12:20:00Z" finished-at="2019-08-26T12:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialize -->
+        <test-method status="PASS" signature="Possitive_Login()[pri:0, instance:Module.CSoftAS.LoginTest@c300f1]" name="Possitive_Login" duration-ms="458" started-at="2019-08-26T12:20:05Z" finished-at="2019-08-26T12:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Possitive_Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Module.CSoftAS.LoginTest@c300f1]" name="tearDown" is-config="true" duration-ms="2054" started-at="2019-08-26T12:20:06Z" finished-at="2019-08-26T12:20:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Module.CSoftAS.LoginTest -->
+      <class name="Module.CSoftAS.LoginNegativeTest">
+        <test-method status="PASS" signature="driverInitialize()[pri:0, instance:Module.CSoftAS.LoginNegativeTest@d3a4e9]" name="driverInitialize" is-config="true" duration-ms="3592" started-at="2019-08-26T12:20:08Z" finished-at="2019-08-26T12:20:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialize -->
+        <test-method status="PASS" signature="Negative_Login(java.lang.String, java.lang.String)[pri:0, instance:Module.CSoftAS.LoginNegativeTest@d3a4e9]" name="Negative_Login" duration-ms="2670" started-at="2019-08-26T12:20:11Z" data-provider="getData" finished-at="2019-08-26T12:20:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Module.CSoftAS.LoginNegativeTest@d3a4e9]" name="tearDown" is-config="true" duration-ms="145" started-at="2019-08-26T12:20:14Z" finished-at="2019-08-26T12:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="driverInitialize()[pri:0, instance:Module.CSoftAS.LoginNegativeTest@d3a4e9]" name="driverInitialize" is-config="true" duration-ms="3519" started-at="2019-08-26T12:20:14Z" finished-at="2019-08-26T12:20:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialize -->
+        <test-method status="PASS" signature="Negative_Login(java.lang.String, java.lang.String)[pri:0, instance:Module.CSoftAS.LoginNegativeTest@d3a4e9]" name="Negative_Login" duration-ms="2660" started-at="2019-08-26T12:20:18Z" data-provider="getData" finished-at="2019-08-26T12:20:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ B]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Module.CSoftAS.LoginNegativeTest@d3a4e9]" name="tearDown" is-config="true" duration-ms="142" started-at="2019-08-26T12:20:20Z" finished-at="2019-08-26T12:20:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="driverInitialize()[pri:0, instance:Module.CSoftAS.LoginNegativeTest@d3a4e9]" name="driverInitialize" is-config="true" duration-ms="3515" started-at="2019-08-26T12:20:20Z" finished-at="2019-08-26T12:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialize -->
+        <test-method status="PASS" signature="Negative_Login(java.lang.String, java.lang.String)[pri:0, instance:Module.CSoftAS.LoginNegativeTest@d3a4e9]" name="Negative_Login" duration-ms="2101" started-at="2019-08-26T12:20:24Z" data-provider="getData" finished-at="2019-08-26T12:20:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[']]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[']]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Module.CSoftAS.LoginNegativeTest@d3a4e9]" name="tearDown" is-config="true" duration-ms="99" started-at="2019-08-26T12:20:26Z" finished-at="2019-08-26T12:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="driverInitialize()[pri:0, instance:Module.CSoftAS.LoginNegativeTest@d3a4e9]" name="driverInitialize" is-config="true" duration-ms="3534" started-at="2019-08-26T12:20:26Z" finished-at="2019-08-26T12:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialize -->
+        <test-method status="PASS" signature="Negative_Login(java.lang.String, java.lang.String)[pri:0, instance:Module.CSoftAS.LoginNegativeTest@d3a4e9]" name="Negative_Login" duration-ms="2252" started-at="2019-08-26T12:20:30Z" data-provider="getData" finished-at="2019-08-26T12:20:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arka@csoftindia.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12323543645756867978907896785467245624353454354353453455234235235345346457657567875654654645665]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Negative_Login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Module.CSoftAS.LoginNegativeTest@d3a4e9]" name="tearDown" is-config="true" duration-ms="2067" started-at="2019-08-26T12:20:32Z" finished-at="2019-08-26T12:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Module.CSoftAS.LoginNegativeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

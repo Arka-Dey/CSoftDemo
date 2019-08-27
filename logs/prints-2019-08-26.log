@@ -1,0 +1,7 @@
+12:20:13.614 [main] DEBUG Module.CSoftAS.LoginTest - password button is passed keys
+12:20:19.187 [main] INFO  Module.CSoftAS.LoginTest - for Negative login test
+12:20:19.829 [main] DEBUG Module.CSoftAS.LoginTest - partner button clicked
+12:20:19.890 [main] DEBUG Module.CSoftAS.LoginTest - username button is passed keys
+12:20:19.944 [main] DEBUG Module.CSoftAS.LoginTest - password button is passed keys
+12:20:25.548 [main] INFO  Module.CSoftAS.LoginTest - for Negative login test
+12:20:26.181 [main] DEBUG Module.CSoftAS.LoginTest - partner button clicked

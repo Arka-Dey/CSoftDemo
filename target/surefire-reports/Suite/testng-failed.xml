@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Module.CSoftAS.LoginNegativeTest">
+        <methods>
+          <include name="driverInitialize"/>
+          <include name="Negative_Login"/>
+        </methods>
+      </class> <!-- Module.CSoftAS.LoginNegativeTest -->
+      <class name="Module.CSoftAS.LoginTest">
+        <methods>
+          <include name="driverInitialize"/>
+          <include name="Possitive_Login"/>
+        </methods>
+      </class> <!-- Module.CSoftAS.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
